@@ -85,5 +85,8 @@ int solution(int K, vector<int> &C, vector<int> &D) {
     */
         maxWash = K;
     }
+    /*Returning the max amount of socks that can be washed and then paired
+    up with clean ones to make a new pair added to the number of clean pairs
+    counted from the clean array.*/
     return(maxWash+cleanPairs);
 }
